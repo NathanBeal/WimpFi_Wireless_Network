@@ -1,0 +1,1 @@
+-wto "ad6a5d1126304a27979af3fb70c98c7b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "WimpFi_Simulation_TL_behav" "xil_defaultlib.WimpFi_Simulation_TL" "xil_defaultlib.glbl" -log "elaborate.log" 

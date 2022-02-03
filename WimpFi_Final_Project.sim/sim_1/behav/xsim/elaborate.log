@@ -1,0 +1,43 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ad6a5d1126304a27979af3fb70c98c7b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot WimpFi_Simulation_TL_behav xil_defaultlib.WimpFi_Simulation_TL xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/natha/Desktop/GitHub Repositories/ece416_Bachman_Beal/WimpFi_Final_Project/WimpFi_Final_Project.srcs/sim_1/new/clk_gen.sv:18]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/natha/Desktop/GitHub Repositories/ece416_Bachman_Beal/WimpFi_Final_Project/WimpFi_Final_Project.srcs/sim_1/new/clk_gen.sv:20]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 18, File C:/Users/natha/Desktop/GitHub Repositories/ece416_Bachman_Beal/WimpFi_Final_Project/WimpFi_Final_Project.srcs/sim_1/new/clk_gen.sv
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 20, File C:/Users/natha/Desktop/GitHub Repositories/ece416_Bachman_Beal/WimpFi_Final_Project/WimpFi_Final_Project.srcs/sim_1/new/clk_gen.sv
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_gen
+Compiling module xil_defaultlib.rate_enb_default
+Compiling module xil_defaultlib.rate_enb(RATE_HZ=19200)
+Compiling module xil_defaultlib.rate_enb(RATE_HZ=153600)
+Compiling module xil_defaultlib.counter(W=4)
+Compiling module xil_defaultlib.FSM_UART_RCVR
+Compiling module xil_defaultlib.sh_reg_uart_rcvr
+Compiling module xil_defaultlib.uart_rcvr_TL
+Compiling module xil_defaultlib.counter(W=8)
+Compiling module xil_defaultlib.counter(W=10)
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.xmit_adapter
+Compiling module xil_defaultlib.mem2p_sw_sr(D=255)
+Compiling module xil_defaultlib.rate_enb(RATE_HZ=50000)
+Compiling module xil_defaultlib.rate_enb(RATE_HZ=100000)
+Compiling module xil_defaultlib.rate_enb(RATE_HZ=400000)
+Compiling module xil_defaultlib.mx_data_constructor
+Compiling module xil_defaultlib.mx_xmit_shreg
+Compiling module xil_defaultlib.FSM_MX_XMIT
+Compiling module xil_defaultlib.mx_xmit_TL
+Compiling module xil_defaultlib.crc_lookup
+Compiling module xil_defaultlib.fsafe_fsm(BPLIMIT=4096)
+Compiling module xil_defaultlib.fsafe
+Compiling module xil_defaultlib.WimpFi_Transmitter
+Compiling module xil_defaultlib.crc
+Compiling module xil_defaultlib.WF_XMIT_SCTB_default
+Compiling module xil_defaultlib.WimpFi_Simulation_TL
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot WimpFi_Simulation_TL_behav

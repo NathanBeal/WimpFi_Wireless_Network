@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 24 15:12:30 2021
+# Process ID: 12868
+# Current directory: D:/Scool/ECE 416/ece416_Bachman_Beal/WimpFi_Final_Project/WimpFi_Final_Project.runs/synth_1
+# Command line: vivado.exe -log WimpFi_Hardware_TL.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source WimpFi_Hardware_TL.tcl
+# Log file: D:/Scool/ECE 416/ece416_Bachman_Beal/WimpFi_Final_Project/WimpFi_Final_Project.runs/synth_1/WimpFi_Hardware_TL.vds
+# Journal file: D:/Scool/ECE 416/ece416_Bachman_Beal/WimpFi_Final_Project/WimpFi_Final_Project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source WimpFi_Hardware_TL.tcl -notrace

@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/FSM_MX_XMIT.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/FSM_UART_RCVR.sv" \
+"../../../../WimpFi_Final_Project.srcs/sim_1/new/WF_XMIT_SCTB.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/WimpFi_Transmitter.sv" \
+"../../../../WimpFi_Final_Project.srcs/sim_1/new/clk_gen.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/counter.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/crc.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/crc_lookup.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/fsafe.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/fsafe_fsm.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/mem2p_sw_sr.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/mx_data_constructor.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/mx_xmit_TL.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/mx_xmit_shreg.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/rate_enb.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/sh_reg_uart_rcvr.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/uart_rcvr_TL.sv" \
+"../../../../WimpFi_Final_Project.srcs/sources_1/new/xmit_adapter.sv" \
+"../../../../WimpFi_Final_Project.srcs/sim_1/new/WimpFi_Simulation_TL.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
